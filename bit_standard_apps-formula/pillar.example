@@ -1,0 +1,7 @@
+bit_standard_apps:
+  include_standard: true
+  standard_apps:
+    - firefox
+    - adobereader
+    - winrar
+  extra: []
