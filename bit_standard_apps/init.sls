@@ -20,7 +20,7 @@ install_standard_apps:
       - where chocola*
 {% for app in config.choco %}
 install_{{ app }}:
-  chocolatey.install:
+  chocolatey.installed:
   - name: {{ app }}
 {% endfor %}
 {% endif %}
