@@ -5,3 +5,4 @@ bit_standard_apps:
 #    - adobereader
     - winrar
   extra: []
+  choco: []
